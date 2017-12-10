@@ -7,6 +7,7 @@ breakcount = 0
 
 print ("This program started at " + time.ctime())
 
+#set Brake time
 while ( breakcount < totalbreaks):
     time.sleep(60*60*20)
     webbrowser.open("https://www.youtube.com/watch?v=fJ9rUzIMcZQ")
